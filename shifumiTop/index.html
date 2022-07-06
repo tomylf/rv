@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript - Exercice</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <script src="https://kit.fontawesome.com/ef2f3fa6f8.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+
+    </head>
+
+    <body>
+
+        <main>
+            <div id="leftWall"></div>
+            <div id="rightWall"></div>
+            <div class="scoreUser">
+                <h2 id="user">Score User</h2>
+                <p id="userScore"></p>
+            </div>
+            <div class="gameContainer">
+                <div class="title">
+                    <h1>SHIFUMI</h1>
+                </div>
+                <div class="shifumi">
+                    <div class="userChoice">
+                        <img id="pierre" src="img/pierre.png" alt="Pierre.">
+                        <img id="feuille" src="img/feuille.png" alt="Feuille.">
+                        <img id="ciseaux" src="img/ciseaux.png" alt="Ciseaux.">
+                    </div>
+                    <div class="computeurChoice">
+                        <h2 id="h2">Cliquez sur pierre, papier ou ciseau!</h2>
+                        <div class="robot">
+                            <img id="cpu" src="img/robot.png" alt="Robot.">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="scoreCpu">
+                <h2>Score Robot</h2>
+                <p id="cpuScore"></p>
+            </div>
+        </main>
+        
+        <div class="game">
+            <script src="script.js"></script>
+        </div>
+    </body>
+</html>

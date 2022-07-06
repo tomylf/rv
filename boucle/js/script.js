@@ -1,29 +1,29 @@
 "use strict";
 
-// // syntaxe
-// // for(initialisation; condition; incrementation){#instruction}
-// for(let i=0;i<=10; i++){ // pour(let i=0; si i est egal ou plus petit que 10; alors je lui ajoute 1)
-//     console.log("salut n°" +i);
-// }
+// syntaxe
+// for(initialisation; condition; incrementation){#instruction}
+for(let i=0;i<=10; i++){ // pour(let i=0; si i est egal ou plus petit que 10; alors je lui ajoute 1)
+    console.log("salut n°" +i);
+}
 
-// i++ = i+1
-// i+=5 = i+5
+i++ = i+1
+i+=5 = i+5
 
-// let deno = prompt("choisissez un nombre")
-// for(let i=0; i<=10; i++){
-//     let resultat = deno * i;
-//     console.log(`${deno} x ${i} = ${resultat}`);
-// }
+let deno = prompt("choisissez un nombre")
+for(let i=0; i<=10; i++){
+    let resultat = deno * i;
+    console.log(`${deno} x ${i} = ${resultat}`);
+}
 
 
-// for(let i=10; i>=0; i--){ 
+for(let i=10; i>=0; i--){ 
     
-//     if(i==0){ // si i est egal à zero
-//         console.log("ça va peter !"); // il affiche le string
-//     }else{   // sinon
-//         console.log(i); // il affiche i
-//     }
-// }
+    if(i==0){ // si i est egal à zero
+        console.log("ça va peter !"); // il affiche le string
+    }else{   // sinon
+        console.log(i); // il affiche i
+    }
+}
 
 
 
@@ -45,58 +45,23 @@ let long = prompt("quelle est la longueur de votre colis");
 let haut = prompt("quelle est la hauteur de votre colis");
 
 
-function validColis(long,larg,haut){
+function validColis(longue,largeur,hauteur){
     
     let largMax = 15;
     let longMax = 25;
     let hautMax = 20;
-    if(larg>largMax){
-        console.log("Colis refuser");
+    if(largeur>largMax){
+        console.log("Colis refuser, la largeur est de "+ larg+"cm");
     }
-    if(long>longMax){
-        console.log("Colis refuser");
+    if(longue>longMax){
+        console.log("Colis refuser la longueur est de "+ long+"cm");
     }
-    if(haut>hautMax){
-        console.log("Colis refuser");
+    if(hauteur>hautMax){
+        console.log("Colis refuser la hauteur est de "+ haut+"cm");
     }
-    if(larg<=largMax && long<=longMax && haut<=hautMax){
+    if(largeur<=largMax && long<=longMax && haut<=hautMax){
         console.log("Colis accepter");
     }
 
 }
 validColis(long,larg,haut)
-
-
-
-
-// if(larg <= largMax && long <= longMax && haut <= hautMax){
-//     console.log("Votre colis est valide");
-// }
-// else if (larg>largMax && long<=longMax && haut<=hautMax ){
-//     console.log("La largeur de votre colis est invalide");
-// }
-// else if (larg<=largMax && long>longMax && haut<=hautMax ){
-//     console.log("La longueur de votre colis est invalide");
-// }
-// else if (larg>largMax && long<=longMax && haut>hautMax ){
-//     console.log("La hauteur de votre colis est invalide");
-// }
-
-// else if (larg>largMax && long>longMax && haut<=hautMax ){
-//     console.log("La largeur et la longueur de votre colis est invalide");
-// }
-// else if (larg<=largMax && long>longMax && haut>hautMax ){
-//     console.log("La hauteur et la longueur de votre colis est invalide");
-// }
-// else if (larg>largMax && long<=longMax && haut>hautMax ){
-//     console.log("La largeur et la hauteur de votre colis est invalide");
-// }
-
-// else{}
-
-
-
-
-
-
-
