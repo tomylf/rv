@@ -1,0 +1,11 @@
+.p1{
+    display: none;
+}
+
+.show{
+    display: block;
+    background-color: antiquewhite;
+    color: brown;
+    padding: 5%;
+    border-radius: 20px;
+}

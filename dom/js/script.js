@@ -20,7 +20,7 @@ console.log(logo);
 let container = document.querySelector('.container'); // 
 console.log(container);
 
-let p = document.querySelector('p'); // il va recuperer le premier P contrairement au getElements qui les recupère tous
+let p = document.querySelectorAll('p'); // il va recuperer le premier P contrairement au getElements qui les recupère tous
 console.log(p);
 
 document.body.append("Test !!!");

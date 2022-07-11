@@ -6,8 +6,8 @@ for(let i=0;i<=10; i++){ // pour(let i=0; si i est egal ou plus petit que 10; al
     console.log("salut n°" +i);
 }
 
-i++ = i+1
-i+=5 = i+5
+// i++ = i+1
+// i+=5 = i+5
 
 let deno = prompt("choisissez un nombre")
 for(let i=0; i<=10; i++){
@@ -65,3 +65,13 @@ function validColis(longue,largeur,hauteur){
 
 }
 validColis(long,larg,haut)
+
+
+// ******************************************** EXEMPLE BOUCLE WHILE ****************************************************
+
+let compteur = 0; // creation du compteur en dehors de la boucle
+
+while(compteur<10){
+    console.log("num :" +compteur);
+    compteur++; // attention on n'oublie pas de faire l'incrementation pour ne pas faire une boucle infinie
+}
