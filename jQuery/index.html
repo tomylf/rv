@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>JQuery</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    </head>
+    <body>
+        <h1>Entrainement JQuery Partie 1 : les bases</h1>
+        <h6>Cliquer ici pour un Hello !</h6>
+        <hr>
+        <div id="moi"></div>
+        <h3>Si tu cliques sur le carré je vais disparaitre !</h3>
+        <h3>Moi aussi je vais disparaitre !</h3>
+        <h3>Moi aussi ! Parce que nous sommes tous des H3 !</h3>
+        <hr>
+        <div id="moi2"></div>
+        <h4>Clique sur le carré pour faire disparaitre le carré</h4>
+        <hr>
+        <img class="photos" src="https://loremflickr.com/100/100" />
+        <h4>DOUBLE CLIC sur la photo pour que les H3 reapparaisse dans la premiere zone !</h4>
+        <hr>
+        <div id="zone-rouge"></div>
+        <h4>Mettre une alert vous etes dans la zone rouge a l'entree de la souris</h4>
+        <hr>
+        <p id="texte">Voici un joli texte que j'aimerai que vous lisiez</p>
+        <hr>
+        <div id="zone-verte"></div>
+        <hr>
+        <div id="zone-bleue" ></div>
+        <hr>
+        <div id="zone-rose" ></div>
+        <hr>
+        <form id="form">
+            <label for="nom" >Nom</label>
+                <input type="text" id="nom">
+            <br>
+            <label for="mdp"> Mot de passe</label>
+                <input type="password">
+        </form>
+        <hr>
+        <button id="interrupteur">ON / OFF</button>
+        <h1 id="on-off">J'apparais et Disparais si tu cliques sur l'intérrupteur</h1>
+        <hr>
+        <button id="lent">LENT</button>
+        <p id="lentement">Ce text va disparaitre lentement si tu clique sur le bouton LENT ...</p>
+        <h2>Résumé 1 :</h2>
+        <h4>Les sélecteurs :</h4>
+        <ul>
+            <li>Par la balise, exemple $("h1")</li>
+            <li>Par l'id, exemple $("#moi")</li>
+            <li>Par la classe, exemple $(".ma-classe")</li>
+            <li>Par lui meme, $(this)</li>
+            <li>Par le type, exemple $("input:text")</li>
+            <li>TOUS les types, exemple $(":text")</li>
+            <li>Par l'attribut, $("img[alt]")</li>
+            <li>TOUS les attributs, $("[alt]")</li>
+            <li>Par le nom d'attribut ET sa valeur, $("img[title='tigre']")</li>
+            <li>Selectionner PLUSIEURS sélecteurs, $("h1, div, p, div.ma-classe")</li>
+        </ul>
+        <h4>Les évenements Jquery :</h4>
+        <ul>
+            <li>click()</li>
+            <li>dblclick()</li>
+            <li>mouseenter()</li>
+            <li>mouseleave()</li>
+            <li>hover()</li>
+            <li>mousedown()</li>
+            <li>mouseup()</li>
+            <li>focus()</li>
+            <li>blur()</li>
+        </ul>
+        <h4>Les fonctions hide(), show() et toggle :</h4>
+        <ul>
+            <li>hide() permet de cacher ce qu'on a cible</li>
+            <li>show() affiche ce qu'on a  cible</li>
+            <li>toggle() cache si affiché, affiche si caché. Intérrupteur qui fait les deux</li>
+            <li>"slow" fait l'action lentement</li>
+            <li>"fast" rapidement</li>
+            <li>1000 fait l'action en 1000 millisecondes</li>
+        </ul>
+        <script src="js/script.js">//BALISE pour écrire du Javascript dans le HTML (PAS RECOMMANDER )</script>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Entrainement JQuery 2</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>  
+        <h1>Entrainement JQuery Partie 2 : Les animations</h1>
+        <h3>Les animations "FADE"</h3>
+        <button id="fadein">FADE APPARITION</button>
+        <div id="rouge" ></div>
+        <div id="bleu"></div>
+        <div id="vert"></div>
+        <hr />
+        <button id="fadeout">FADE DISPARITION</button>
+        <br />
+        <img id="photo" src="https://loremflickr.com/100/100" />
+        <br >
+        <div id="gris"></div>
+        <div id="jaune" ></div>
+        <hr />
+        <button id="fadetoggle">FADE INTERRUPTEUR</button>
+        <div id="orange"></div>
+        <br />
+        <img id="photo2" src="https://loremflickr.com/100/100" />
+        <br >
+        <div id="rose"></div>
+        <hr />
+        <button id="fadeto">FADE OPACITE ON</button>
+        <button id="fadeto2">FADE OPACITE OFF</button>
+        <form id="formulaire">
+            <label for="nom">Nom</label>
+                <input id="nom" type="text" />
+                <br />
+            <label>Mot de passe</label>
+                <input type="password" />
+        </form>
+        <p id="coucou" >COUCOU !<p>
+        <div id="marron"></div>
+        <hr />
+        <hr />
+        <h3>Les animations "SLIDE"</h3>
+        <div id="barre">Clique pour déscendre le rideau !</div>
+        <div id="rideau">Rideau déroulé !</div>
+        <hr />
+        <div id="barre2">Clique pour remonter le rideau !</div>
+        <div id="rideau2">Faites remonter le rideau !</div>
+        <hr />
+        <hr />
+        <h3>Les animations "ANIMATE"</h3>
+        <p>Les animations de type Animate, agissent sur les propriétés de positionnement CSS.</p>
+        <p>Comme en CSS les positionnements par défaut des élèments sont "static" et qu'on ne peut par leur attribuer des propriétés TOP, LEFT, RIGHT ou BOTTOM, il faut d'abord, s'assurer que les positionnements des élèments que l'on va animer sont bien sur "relative", "absolute" ou "fixed".</p>
+        <button id="btn-simple">Simple</button>
+        <div id="simple">Animation Simple</div>
+        <hr />
+        <button id="btn-double">Double</button>
+        <div id="double">Animation Double</div>
+        <hr />
+        <button id="btn-agg">Agrandissement</button>
+        <div id="agg">Aggrandissement</div>
+        <hr />
+        <button id="btn-toggle">Toggle</button>
+        <div id="toggle">Toggle</div>
+        <hr />
+        <button id="btn-etape">Etape</button>
+        <div id="etape">A notre tour !</div>
+        <hr />
+        <button id="btn-etape2">Etape 2</button>
+        <div id="etape2">Disparition !</div>
+        <h2>Animate</h2>
+        <div id="simple1">Passer sur moi</div><!--passage de souris decalage de la boite changement de background-->
+        <div id="double1">Double Clique ici</div><!--deplacement left et top fadeOut-->
+        <div id="toggle1">Clique sur moi</div><!--animation toggle-->
+        <div id="animation1">Clique sur moi Je fais plein de chose</div>
+        <h2>Copieur</h2>
+        <article id="monBloc">
+            <input type="text" id="modele">
+            <input type="text" id="copie">
+        </article>
+        <h2>Résumé 2 :</h2>
+        <p>Toutes les fonctions permettant de générer une animation ou un effet ( comme les fonctions hide() et show() ), disposent des memes arguments, à savoir "slow", "fast" et la vitesse en millisecondes si l'on indique un chiffre</p>
+        <p>Aussi, elles ont toutes un mode "toggle", qu'il faut comprendre comme un "interrupteur" permettant de faire l'animation dans un sens, puis dans l'autre...</p>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

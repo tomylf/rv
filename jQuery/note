@@ -1,0 +1,39 @@
+// Les differents selecteurs
+
+$('p');// je Selectionne toutes les balises 'p'
+$('p:first');// je Selectionne le premier 'p' trouvé
+$('p[id]');// je selectionne le 'p' avec l'id
+$('.class');// je selectionne l'element avec la class
+$('div .lien');// je selectionne les elements qui ont la class .lien et qui sont enfant d'une div
+
+
+
+// Quelques evenements
+
+.ready(); // ecoute de chargement d'element
+.click(); // simple clique
+.dblclick(); // double clique
+.hover(); // passage de la sourie
+.mouseenter(); // la sourie rentre dans un element
+.mouseleave(); // la sourie sort d'un element
+.mousedown(); // maintient du clique enfoncé
+.mouseup(); // clique sourie relevé 
+.scroll(); // scroll de la sourie
+.keydown(); // appuis d'une sur le clavier
+.keyup(); // la touche est relaché
+.keypress(); //maintient de la touche enfoncé
+
+
+
+// Quelques methodes 
+
+.css(); // permet de modifier le css de la cible
+.html(); // permet de lire/ecrire/recuperer le contenu d'un element en balisage html
+.height(); // definir la hauteur de l'element
+.width(); // definir la largeur de l'element
+.attr(); // permet d'affecter des attributs à l'element ciblé
+.addClass(); // rajoute une class à l'element ciblé
+.removeClass(); // enlever une class à l'element
+.val(); // recupere la valeur d'un element
+
+https://api.jquery.com/category/manipulation/
